@@ -70,17 +70,17 @@ void loop() {
  
 
   digitalWrite(4, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(myData.x/5);                       // wait for a second
+  delay(myData.rate/5);                       // wait for a second
   digitalWrite(4, LOW);    // turn the LED off by making the voltage LOW
-  delay(myData.x);  // wait for a second
+  delay(myData.rate);  // wait for a second
   digitalWrite(16, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(myData.x/5);                       // wait for a second
+  delay(myData.rate/5);                       // wait for a second
   digitalWrite(16, LOW);    // turn the LED off by making the voltage LOW
-  delay(myData.x);
+  delay(myData.rate);
   digitalWrite(17, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(myData.x/5);                       // wait for a second
+  delay(myData.rate/5);                       // wait for a second
   digitalWrite(17, LOW);    // turn the LED off by making the voltage LOW
-  delay(myData.x);  
+  delay(myData.rate);  
 }
 
 }
